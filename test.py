@@ -1,8 +1,5 @@
 N = int(input().strip())
-moves_line = input().strip()
-
-# 공백이 있으면 split, 없으면 문자열을 글자 단위로
-moves = moves_line.split() if " " in moves_line else list(moves_line)
+moves = input().split()
 
 x, y = 1, 1
 
